@@ -57,8 +57,8 @@
     </div>
     <div class="col-md-8 btn_edit_form">
       <div class="text-center space create_account">
-        <%= link_to t("cancel"), object, class: "btn btn-danger custom_btn btn-width" %>
-        <%= f.submit t("save"), class: "btn custom_btn btn-width" %>
+        <%= link_to t("cancel"), yield(:edit_cancel), class: "btn btn-danger custom_btn btn-size" %>
+        <%= f.submit t("save"), class: "btn btn-primary btn-size" %>
       </div>
     </div>
   </div>

@@ -41,8 +41,16 @@ input {
 }
 
 #error_explanation {
-  color: $red;
+  text-align: left;
+  color: #a94442;
+  border: 0.5px solid #ebccd1;
+  border-radius: 15px;
+  background-color: #f2dede;
+  padding: 10px;
   ul {
+    list-style: disc;
+    padding-left: 40px;
+    text-align: left;
     color: $red;
     margin: 0 0 30px 0;
   }
@@ -106,6 +114,10 @@ p {
 #session_remember_me {
   width: auto;
   margin-left: 0;
+}
+
+.btn-size {
+  width: 200px;
 }
 
 .btn-signin {
@@ -222,6 +234,10 @@ p {
 .left_float {
   float: left;
   width: auto;
+}
+
+.right_float {
+  float: right;
 }
 
 .text-center {
@@ -447,4 +463,21 @@ th {
   width: 700px;
   height: 780px;
   border: none;
+}
+
+.remember_box {
+  width: auto;
+  margin-left: 0px !important;
+}
+
+.alert-notice {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+.alert-alert {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
 }
